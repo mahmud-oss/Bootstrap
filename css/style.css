@@ -10,8 +10,15 @@
     min-height: 400 px;
 }
 .footer{
-    background:grey;
+    background:skyblue;
     margin:0px auto;
     padding:20px 0px 20px 0px;
     /* padding: top right bottom left */
+}
+.jumbotron{
+    padding: 50px 20px 50px 20px;
+    margin: 0px auto;
+
+    background-color: purple;
+    color :  floralwhite;
 }
