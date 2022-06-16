@@ -4,8 +4,14 @@
     color:black;
 }
 .row-content{
-    padding:0px auto;
+    margin:0px auto;
     border-bottom: 1px ridge;
     padding:50px 0px 50px 0px;
     min-height: 400 px;
+}
+.footer{
+    background:grey;
+    margin:0px auto;
+    padding:20px 0px 20px 0px;
+    /* padding: top right bottom left */
 }
