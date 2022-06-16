@@ -3,3 +3,9 @@
     padding:0px auto;
     color:black;
 }
+.row-content{
+    padding:0px auto;
+    border-bottom: 1px ridge;
+    padding:50px 0px 50px 0px;
+    min-height: 400 px;
+}
