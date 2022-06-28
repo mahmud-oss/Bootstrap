@@ -39,3 +39,15 @@ body{
     border-right: 10px;
     border-color: darkgray;
 }
+.carousel{
+    background-color:whitesmoke;
+}
+.carousel-item{
+    height: 300px;
+}
+.carousel-item img{
+    min-height: 300px;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
