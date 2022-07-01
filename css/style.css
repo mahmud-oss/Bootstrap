@@ -51,3 +51,8 @@ body{
     left: 0;
     position: absolute;
 }
+#carousel-buttons{
+    right: 47% ;
+    bottom: 0 px;
+    position: absolute;
+}
