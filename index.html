@@ -50,7 +50,7 @@
                     <li class="nav-item mr-auto"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
                 </ul> 
                 <span class="navbar-text ml-auto">
-                    <a role="button" data-target="#signinModal" data-toggle="modal">
+                    <a role="button" id="SignInButton">
                         <span class="fa fa-sign-in"></span>
                          Sign in
                     </a>
@@ -217,7 +217,7 @@
                 <!-- "Reserve a table" form now inside a modal -->
                 <div class="col-12 col-sm-2 align-self-center">
                     <a href="#reservationModal" role="button" class="btn btn-success"
-                    data-toggle="modal" data-html="true" title="Or call us. <a href='tel:+8801521555555'><strong>Click here</strong></a>"
+                    id="ReserveButton" title="Or call us. <a href='tel:+8801521555555'><strong>Click here</strong></a>"
                     >Reserve Table
                     </a>
                 </div>
@@ -437,6 +437,7 @@
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="./tooltip_activation.js"></script>
     <script src="./carousel_button.js"></script>
+    <script src="./modal-toggle.js"></script>
 </body>
 
 </html>
