@@ -10,8 +10,8 @@
     "scss": "node-sass -o css/ css/",
     "watch:scss": "onchange 'css/*.scss' -- npm run scss",
     "watch:all": "parallelshell 'npm run watch:scss' 'npm run lite'",
-    "clean": "rimraf dist"
-
+    "clean": "rimraf dist",
+    "copyfiles": "npm -g install copyfiles"
   },
   "author": "",
   "license": "ISC",
